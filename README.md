@@ -16,3 +16,9 @@
   - 예. `2020-08-26 / TIL의 정의`
 
 # 분류
+
+## Git
+- [20200826 / Git commit 마지막 커밋 메시지 수정](https://github.com/kimmy100b/TIL/blob/master/Git/20200826.md)
+
+## HTML&CSS
+- [20200826 / z-index 속성](https://github.com/kimmy100b/TIL/blob/master/HTML%26CSS/20200826.md)
