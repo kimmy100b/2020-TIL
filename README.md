@@ -1,7 +1,9 @@
 # TIL
+
 오늘 새롭게 배운 혹은 삽질한 경험, 그리고 히스토리 정리 목적의 간단한 글들을 마크다운 문서로 정리해보자.
 
 # 작성법
+
 - 폴더명은 될 수 있으면 영문으로 작성한다.
 - 폴더명은 해당 언어나 사이트 등 파일을 포괄할 수 있는 이름으로 정한다.
   - 예. HTML&CSS, Git, AWS, Android, Java 등
@@ -18,7 +20,11 @@
 # 분류
 
 ## Git
+
 - [20200826 / Git commit 마지막 커밋 메시지 수정](https://github.com/kimmy100b/TIL/blob/master/Git/20200826.md)
 
 ## HTML&CSS
+
 - [20200826 / z-index 속성](https://github.com/kimmy100b/TIL/blob/master/HTML%26CSS/20200826.md)
+
+## ENG
