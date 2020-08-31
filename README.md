@@ -30,7 +30,7 @@
 ## JS
 
 - [20200829 / 자바스크립트 변수, 연산자, 타입](https://github.com/kimmy100b/TIL/blob/master/JS/20200829.md)
-- [20200831 / 자바스크립트 비교, 반복, 문자열](https://github.com/kimmy100b/TIL/blob/master/JS/20200830.md)
+- [20200830 / 자바스크립트 비교, 반복, 문자열](https://github.com/kimmy100b/TIL/blob/master/JS/20200830.md)
 - [20200831 / 자바스크립트 함수](https://github.com/kimmy100b/TIL/blob/master/JS/20200831.md)
 
 ## ENG
