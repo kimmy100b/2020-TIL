@@ -21,14 +21,14 @@
 
 ## Git
 
-- [20200826 / Git commit 마지막 커밋 메시지 수정](https://github.com/kimmy100b/TIL/blob/master/Git/20200826.md)
+- [2020-08-26 / Git commit 마지막 커밋 메시지 수정](https://github.com/kimmy100b/TIL/blob/master/Git/20200826.md)
 
 ## HTML&CSS
 
-- [20200826 / z-index 속성](https://github.com/kimmy100b/TIL/blob/master/HTML%26CSS/20200826.md)
+- [2020-08-26 / z-index 속성](https://github.com/kimmy100b/TIL/blob/master/HTML%26CSS/20200826.md)
 
 ## JS
 
-- [20200829 / 자바스크립트 변수, 연산자, 타입](https://github.com/kimmy100b/TIL/blob/master/JS/20200829.md)
-- [20200830 / 자바스크립트 비교, 반복, 문자열](https://github.com/kimmy100b/TIL/blob/master/JS/20200830.md)
-- [20200831 / 자바스크립트 함수](https://github.com/kimmy100b/TIL/blob/master/JS/20200831.md)
+- [2020-08-29 / 자바스크립트 변수, 연산자, 타입](https://github.com/kimmy100b/TIL/blob/master/JS/20200829.md)
+- [2020-08-30 / 자바스크립트 비교, 반복, 문자열](https://github.com/kimmy100b/TIL/blob/master/JS/20200830.md)
+- [2020-08-31 / 자바스크립트 함수](https://github.com/kimmy100b/TIL/blob/master/JS/20200831.md)
