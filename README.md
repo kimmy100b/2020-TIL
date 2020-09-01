@@ -34,4 +34,4 @@
 - [2020-08-31 / 자바스크립트 함수](https://github.com/kimmy100b/TIL/blob/master/JS/20200831.md)
 
 ## TECH
-- [2020-09-01 / API vs ](https://github.com/kimmy100b/TIL/blob/master/Tech/20200901.md)
+- [2020-09-01 / API vs Library vs Framework](https://github.com/kimmy100b/TIL/blob/master/Tech/20200901.md)
