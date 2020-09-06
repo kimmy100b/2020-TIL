@@ -29,12 +29,13 @@
 
 ## JS
 
+- [2020-09-05 / Window 객체 - setTimeout, setInterval](https://github.com/kimmy100b/TIL/blob/master/JS/20200905.md)
 - [2020-08-31 / 자바스크립트 함수](https://github.com/kimmy100b/TIL/blob/master/JS/20200831.md)
 - [2020-08-30 / 자바스크립트 비교, 반복, 문자열](https://github.com/kimmy100b/TIL/blob/master/JS/20200830.md)
 - [2020-08-29 / 자바스크립트 변수, 연산자, 타입](https://github.com/kimmy100b/TIL/blob/master/JS/20200829.md)
 
 ## TECH
 
-- [2020-09-04 / HTTP METHOD](https://github.com/kimmy100b/TIL/blob/master/Tech/20200904.md)
+- [2020-09-05 / HTTP METHOD](https://github.com/kimmy100b/TIL/blob/master/Tech/20200904.md)
 - [2020-09-03 / REST API가 뭔가요](https://github.com/kimmy100b/TIL/blob/master/Tech/20200903.md)
 - [2020-09-01 / API vs Library vs Framework](https://github.com/kimmy100b/TIL/blob/master/Tech/20200901.md)
