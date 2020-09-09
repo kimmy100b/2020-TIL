@@ -35,11 +35,11 @@
 - [2020-08-29 / 자바스크립트 변수, 연산자, 타입](https://github.com/kimmy100b/TIL/blob/master/JS/20200829.md)
 
 ## Java
-- [2020-09-08 / TIL](https://github.com/kimmy100b/TIL/blob/master/Java/20200908.md)
+- [2020-09-08 / StringBuilder](https://github.com/kimmy100b/TIL/blob/master/Java/20200908.md)
+- [2020-09-07 / 객체지향 언어의 특징](https://github.com/kimmy100b/TIL/blob/master/Tech/20200907.md)
 
 ## TECH
 
-- [2020-09-07 / 객체지향 언어의 특징](https://github.com/kimmy100b/TIL/blob/master/Tech/20200907.md)
 - [2020-09-05 / HTTP METHOD](https://github.com/kimmy100b/TIL/blob/master/Tech/20200904.md)
 - [2020-09-03 / REST API가 뭔가요](https://github.com/kimmy100b/TIL/blob/master/Tech/20200903.md)
 - [2020-09-02 / Process vs Thread](https://github.com/kimmy100b/TIL/blob/master/Tech/20200903.md)
