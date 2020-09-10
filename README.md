@@ -36,10 +36,11 @@
 
 ## Java
 - [2020-09-08 / StringBuilder](https://github.com/kimmy100b/TIL/blob/master/Java/20200908.md)
-- [2020-09-07 / 객체지향 언어의 특징](https://github.com/kimmy100b/TIL/blob/master/Tech/20200907.md)
+
 
 ## TECH
 
+- [2020-09-10 / 서버와 클라이언트](https://github.com/kimmy100b/TIL/blob/master/Tech/20200910.md)
 - [2020-09-09 / 쿠키와 섹션](https://github.com/kimmy100b/TIL/blob/master/Tech/20200909.md)
 - [2020-09-07 / 객체지향 언어의 특징](https://github.com/kimmy100b/TIL/blob/master/Tech/20200907.md)
 - [2020-09-05 / HTTP METHOD](https://github.com/kimmy100b/TIL/blob/master/Tech/20200904.md)
