@@ -8,6 +8,7 @@
 |[9095번 1,2,3구하기](https://www.acmicpc.net/problem/9095)|1|0|
 |[10870번 피보나치 수 5](https://www.acmicpc.net/problem/10870)|1|1|
 |[9656번 돌 게임 2](https://www.acmicpc.net/problem/9656)|1|1|
+|[13699번 점화식](https://www.acmicpc.net/problem/13699)|1|0|
 
 
 ## 2. BFS
