@@ -1,0 +1,56 @@
+body{
+    background-color: #F2F3F5;
+}
+
+.column-one,
+.column-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container{
+    width: 185px;
+    height: 305px;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
+.tomato{
+    background-color: tomato;
+}
+
+.teal{
+    background-color: teal;
+}
+
+.burlywood{
+    background-color: burlywood;
+}
+
+.thistle{
+    background-color: thistle;
+}
+
+.colorchip{
+    width: 180px;
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+}
+
+.colortitle{
+    width: 180px;
+    height:110px;
+    position: relative;
+    background-color: white;
+}
+
+.container h2{
+    padding: 15px 5px 0px 5px;
+}
+
+.container h3{
+    padding: 5px 5px 15px 5px;
+}
