@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  background-color: #6bbcbe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@keyframes circleAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+section:first-child .shape {
+  display: flex;
+  animation: circleAnimation 2s ease-in-out infinite;
+}
+
+.shape__circle {
+  width: 20px;
+  height: 20px;
+  margin: 0px 35px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+@keyframes rectangleAnimation {
+  0%,
+  50% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(1.5);
+  }
+}
+
+.shape__rectangle {
+  width: 20px;
+  height: 80px;
+  margin: 0px 10px;
+  background-color: white;
+  animation: rectangleAnimation 1s linear infinite;
+}
+
+.shape:first-child .shape__rectangle {
+  animation-delay: -0.15s;
+}
+
+.shape:nth-child(2) .shape__rectangle {
+  animation-delay: 0s;
+}
+
+.shape:nth-child(3) .shape__rectangle {
+  animation-delay: 0.15s;
+}
+
+.shape:nth-child(4) .shape__rectangle {
+  animation-delay: 0.3s;
+}
+
+.shape:last-child .shape__rectangle {
+  animation-delay: 0.45s;
+}
