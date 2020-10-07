@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 885px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+    margin: 20px;
+    padding: 60px 35px;
+    border: 5px solid #6bbcbe;
+}
+
+.header i {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.detail {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.detail__picture {
+    width: 130px;
+    height: 130px;
+    border-radius: 20%;
+    border: 3px solid black;
+    margin-right: 20px;
+    background-color: #ffbd11;
+}
+
+.detail__picture--sm {
+    width: 55px;
+    height: 55px;
+}
+
+.detail__picture i {
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 130px;
+}
+
+.detail__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.detail__content .title {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.detail__content--sm .title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.detail__content .singer {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.detail__content--sm .singer {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__play {
+    border-radius: 15px;
+    border: 3px solid black;
+    width: 162px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.btn__play span {
+    vertical-align: super;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn__heart,
+.btn__add {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid black;
+    text-align: center;
+    line-height: 65px;
+}
+
+.btn__play,
+.btn__heart,
+.btn__add {
+    box-shadow: 0px 5px;
+}
+
+.detail:first-child .detail__picture--sm {
+    background-color: #f85a2a;
+}
+
+.detail:nth-child(2) .detail__picture--sm {
+    background-color: #ff89bb;
+}
+
+.detail:nth-child(3) .detail__picture--sm {
+    background-color: #1947e5;
+}
+
+.detail:last-child .detail__picture--sm {
+    background-color: #03b6a0;
+}
