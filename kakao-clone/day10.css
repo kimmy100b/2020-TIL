@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color:#F4F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.wrapper {
+    background-color:white;
+    width:340px;
+    height: 770px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom:50px;
+    height: 100px;
+    padding: 30px 10px;
+    background-color: #FFCE33;
+}
+
+header i {
+    position: absolute;
+    font-size:28px;
+    padding: 30px 10px;
+  }
+
+header .i-bar{
+    top:-5px;
+    left:0;
+}
+
+header .i-bag{
+    top:-5px;
+    right:0;
+}
+
+main{
+    padding: 0px 10px;
+}
+
+.search{
+    position: absolute;
+}
+
+.search-input{
+    width: 320px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: -75px;
+    outline-style: none;
+}
+
+
+.search i{
+    position: relative;
+    top: -75px;
+    right: 30px;
+}
+
+.book{
+    display: flex;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.book img{
+    width : 100px;
+    height: 160px;
+
+}
+
+.top img{
+    width: 90px;
+    height: 100px;
+    padding: 0px 10px;
+
+}
+
+.top-list{
+    display: flex;
+    overflow-y:scroll;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space:nowrap;
+}
+
+.actor__data img{
+    width: 100px;
+    height: 135px;
+}
+
