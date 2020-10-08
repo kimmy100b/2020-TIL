@@ -1,109 +1,208 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 * {
     box-sizing: border-box;
-  }
+}
 
-  body{
-    font-family: 'Noto Sans KR', sans-serif;
-    background-color:#F4F5F7;
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+h4 {
+    font-weight: 400;
+    color: gray;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: #f4f5f7;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-.wrapper {
-    background-color:white;
-    width:340px;
-    height: 770px;
 }
 
-
+.wrapper {
+    background-color: white;
+    width: 340px;
+    height: 770px;
+}
 
 header {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     height: 100px;
     padding: 30px 10px;
-    background-color: #FFCE33;
+    background-color: #ffce33;
 }
 
 header i {
     position: absolute;
-    font-size:28px;
+    font-size: 28px;
     padding: 30px 10px;
-  }
-
-header .i-bar{
-    top:-5px;
-    left:0;
 }
 
-header .i-bag{
-    top:-5px;
-    right:0;
+header .i-bar {
+    top: -5px;
+    left: 0;
 }
 
-main{
+header .i-bag {
+    top: -5px;
+    right: 0;
+}
+
+main {
     padding: 0px 10px;
 }
 
-.search{
+section h1 {
+    margin-bottom: 10px;
+}
+
+.today-book,
+.top {
+    margin-bottom: 20px;
+}
+
+.search {
     position: absolute;
 }
 
-.search-input{
-    width: 320px;
-    height: 50px;
-    background-color: white;
-    border: none;
-    border-radius: 30px;
+.search-input {
     position: relative;
     top: -75px;
+    width: 320px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: white;
     outline-style: none;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px gray;
 }
 
-
-.search i{
+.search i {
     position: relative;
     top: -75px;
     right: 30px;
 }
 
-.book{
+.book {
     display: flex;
 }
 
-img{
+img {
     border-radius: 10px;
 }
 
-.book img{
-    width : 100px;
+.book img {
+    width: 100px;
     height: 160px;
-
 }
 
-.top img{
+.book__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.book__rating i {
+    color: #ffce33;
+    font-size: 13px;
+}
+
+.book__rating--sm {
+    margin: 0px 10px;
+}
+
+.book__rating--sm i {
+    font-size: 10px;
+}
+
+.book__tag,
+.book__btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.book__tag h4 {
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    padding: 3px;
+    margin: 0px 5px;
+    font-size: 13px;
+    color: black;
+}
+
+.book__mark {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffce33;
+}
+
+.book__buy {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book__buy:hover {
+    background-color: black;
+    color: white;
+}
+
+.top img {
     width: 90px;
     height: 100px;
     padding: 0px 10px;
-
 }
 
-.top-list{
+.top-list {
     display: flex;
-    overflow-y:scroll;
-    overflow-x:scroll;
-    overflow-y:hidden;
-    white-space:nowrap;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
-.actor__data img{
+.actor-list {
+    height: 170px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+
+.actor__data img {
     width: 100px;
     height: 135px;
 }
 
+.actor-list li {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.actor__data {
+    margin: 10px 0px 10px 10px;
+}
+
+.actor__name {
+    margin-bottom: 10px;
+}
