@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import "day11FirstPage.css";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.page {
+    width: 340px;
+    height: 600px;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header i:hover {
+    color: #01b925;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+h3 {
+    color: gray;
+    font-size: 11px;
+}
