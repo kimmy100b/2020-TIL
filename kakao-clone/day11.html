@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="day11.css" />
-    <title>Document</title>
 </head>
 
 <body>
@@ -134,12 +135,40 @@
             <i class="fas fa-ellipsis-v"></i>
         </header>
         <main>
-            <section class="playing-song"></section>
-            <section class="playing-range">
-                <input type="range" />
+            <section class="playing-song">
+                <h1>Blueming</h1>
+                <h3>아이유</h3>
+                <img src="src/song01.jpg" alt="블루밍" />
+                <div class="song__icon">
+                    <div class="icon__heart">
+                        <i class="fas fa-heart"></i>
+                        <h3>268,070</h3>
+                    </div>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <h2 class="song__now">뭐해 라는 두 글자에</h2>
+                <h2>네가 보고 싶어 나의 속마음을 담아 우</h2>
             </section>
-            <i class="fas fa-repeat-alt"></i>
-            <i class="fas fa-play-circle"></i>
+            <section class="playing-range">
+                <div class="range__time">
+                    <h3>1:32</h3>
+                    <h3>3:38</h3>
+                </div>
+                <div class="range__icon">
+                    <i class="fas fa-retweet"></i>
+                    <input type="range" />
+                    <i class="fas fa-random"></i>
+                </div>
+            </section>
+            <section class="playing-btns">
+                <i class="fas fa-bars"></i>
+                <div class="btn__playing">
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-play-circle fa-2x"></i>
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <i class="fas fa-volume-up"></i>
+            </section>
         </main>
     </div>
 </body>

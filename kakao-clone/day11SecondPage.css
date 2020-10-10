@@ -1,3 +1,82 @@
-.playing-range input {
-    width: 225px;
+.playing-song {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.playing-song img {
+    width: 195px;
+    height: 195px;
+    border-radius: 20px;
+    margin: 25px 0px;
+}
+
+.song__icon,
+.icon__heart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.song__icon {
+    margin-bottom: 30px;
+}
+
+.icon__heart i {
+    margin-right: 7px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.song__icon i:hover {
+    color: red;
+    animation: heartbeat 1s infinite;
+}
+
+.song__now {
+    color: #01b925;
+}
+
+input[type="range"] {
+    width: 240px;
+    background-color: black;
+    color: black;
+}
+
+.range__time {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 28px;
+    margin-bottom: 5px;
+}
+
+.range__icon,
+.playing-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playing-btns {
+    margin-top: 60px;
+}
+
+.playing-range i:hover,
+.playing-btns i:hover {
+    color: #01b925;
+}
+
+.btn__playing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
 }
