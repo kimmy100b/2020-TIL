@@ -4,8 +4,8 @@
 
 |문제|푼 횟수|맞춘 횟수|
 |----|------|---------|
-|[2839번 설탕배달](https://www.acmicpc.net/problem/2839)|1|0|
-|[9095번 1,2,3구하기](https://www.acmicpc.net/problem/9095)|1|0|
+|[2839번 설탕배달](https://www.acmicpc.net/problem/2839)|2|0|
+|[9095번 1,2,3 더하기](https://www.acmicpc.net/problem/9095)|1|0|
 |[10870번 피보나치 수 5](https://www.acmicpc.net/problem/10870)|1|1|
 |[9656번 돌 게임 2](https://www.acmicpc.net/problem/9656)|1|1|
 |[13699번 점화식](https://www.acmicpc.net/problem/13699)|1|0|
