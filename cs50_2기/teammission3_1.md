@@ -2,7 +2,7 @@
 
 ### 📙 문제 1. 학점을 계산해보자!
 
-**1. 미션 제목**
+**1. 미션 제목**<br>
 학점을 계산해보자!
 
 **2. 지시문**
@@ -34,7 +34,9 @@ Figure 1 출력 결과
 - 표준입출력: https://www.tutorialspoint.com/cprogramming/c_input_output.htm
 - break: https://www.tutorialspoint.com/cprogramming/c_break_statement.htm
 
-### 📙 문제 1. 문제 풀이
+---
+
+### 📖 문제 1. 문제 풀이
 
 **1. 소스코드**
 
@@ -124,10 +126,10 @@ char* calculateGrade(int studentScore, const int scores[], const char*grades[], 
 
 ```
 
-**2. 참고**
+**2. 참고**<br>
 샘플문제의 소스코드를 참고하여 코딩해보았습니다.
 
-**3. 소스 URL**
+**3. 소스 URL**<br>
 URL : <https://sandbox.cs50.io/6390b1ea-5cca-434a-b9e1-477e5fbf8399>
-<br>
+<br><br>
 (해당 링크로 들어가시면 samplemission.c파일은 샘플문제 소스코드를 나름대로 분석하여 주석을 달아놓았습니다. teammission3_1.c파일은 3주차 팀미션 1번 문제에 대한 소스코드입니다.)
