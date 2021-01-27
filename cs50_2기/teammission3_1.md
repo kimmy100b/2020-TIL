@@ -34,7 +34,7 @@ Figure 1 출력 결과
 - 표준입출력: https://www.tutorialspoint.com/cprogramming/c_input_output.htm
 - break: https://www.tutorialspoint.com/cprogramming/c_break_statement.htm
 
----
+<br>
 
 ### 📖 문제 1. 문제 풀이
 
