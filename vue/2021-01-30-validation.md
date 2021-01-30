@@ -1,10 +1,8 @@
-# 2021년 1월 24일
-
-## vee-validation
+# vee-validation
 
 스터디 커뮤니티 사이트의 회원가입 기능을 구현한 후 vee-validation을 이용하여 유효성 검사를 할 때 문제점
 
-### email 형식인지 체크하기
+## email 형식인지 체크하기
 
 ```javascript
 <validation-provider
@@ -26,7 +24,7 @@
 </validation-provider>
 ```
 
-### 비밀번호 재확인
+## 비밀번호 재확인
 
 진짜 많이 삽질했던 부분(js로 내가 만들어줄까도 고민했다ㅋㅋㅋㅋ)<br>
 가장 큰 문제는 vid였다.<br>
