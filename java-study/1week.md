@@ -36,7 +36,7 @@ JVM은 크게 클래스 로더 시스템, 메모리, 실행 엔진 그�
 
 실행엔진은 클래스 로더에 의해 실행에 필요한 준비 과정이 완료된 후 인터프리터나 JIT 컴파일러를 통해 바이트코드를 번역하여 실행하는 역할을 한다. 실행 엔진의 내부적으로는 인터프리터, JIT 컴파일러, GC(Garbage Collection)가 있다.
 
-# JRE와 JDK의 차이
+# JRE와 JDK의 차이
 
 JRE와 JDK의 차이점을 알기 전에 각 개념에 대해 간단히 알아보자
 
@@ -64,7 +64,7 @@ JDK는 자바개발도구로 JRE와 개발에 필요한 실행파일(javac.
 
 - jar.exe : 압축프로그램, 클래스파일과 프로그램의 실행에 관련된 파일을 하나의 jar파일(.jar)로 압축하거나 압축해지한다.
 
-## JRE와 JDK의 차이
+## JRE vs JDK
 
 - 자바 언어로 프로그램을 개발하기 위해서는 JDK를 설치
 - 자바 언어로 작성된 프로그램을 실행하기 위해서는 JRE를 설치
@@ -185,18 +185,14 @@ Hello World!
 
 📢 실행이 안된다.상위 버전의 바이트코드는 하위 버전의 자바에서 실행할 수 없다.
 
-<br><br>
-
 💡 Java 8버전으로 컴파일 된 파일을 Java 14버전으로 실행을 한다면 어떻게 될까?<br>
 
 📢 실행이 된다.
 
-<br><br>
 
 💡 그러면 상위 버전의 바이트코드는 하위 버전의 자바에서 실행을 전혀 할 수 없을까?<br>
 
-📢 Java Compiler version option을 주게 될 경우 가능하다.<br>
-`C\:>javac -source 1.6 -target 1.6 -bootclasspath C:\jdk1.6.0\lib\rt.jar -extdirs "" OldCode.java` 이런 식으로
+📢 Java Compiler version option을 주게 될 경우 가능하다.`C\:>javac -source 1.6 -target 1.6 -bootclasspath C:\jdk1.6.0\lib\rt.jar -extdirs "" OldCode.java` 이런 식으로
 
 # 바이트코드란 무엇인가
 
