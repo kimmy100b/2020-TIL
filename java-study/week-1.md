@@ -191,7 +191,6 @@ Hello World!
 
 📢 실행이 된다.
 
-
 💡 그러면 상위 버전의 바이트코드는 하위 버전의 자바에서 실행을 전혀 할 수 없을까?<br>
 
 📢 Java Compiler version option을 주게 될 경우 가능하다.`C\:>javac -source 1.6 -target 1.6 -bootclasspath C:\jdk1.6.0\lib\rt.jar -extdirs "" OldCode.java` 이런 식으로
