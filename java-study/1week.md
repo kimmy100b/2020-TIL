@@ -12,7 +12,7 @@
 - [바이트코드란 무엇인가](#-바이트코드란-무엇인가)
 - [JIT 컴파일러란 무엇이며 어떻게 동작하는지](#-JIT-컴파일러란-무엇이며-어떻게-동작하는지)
 
-# JVM이란 무엇인가
+# JVM이란 무엇인가
 
 JVM은 'Java Virtual Machine'을 줄인 것으로 '자바를 실행하기 위한 가상 기계'이다. Machine은 영어권에서 컴퓨터를 machine이라고도 부르기 때문에 '자바를 실행하기 위한 가상 컴퓨터'라고 해석할 수 있다.<br>
 
@@ -36,17 +36,17 @@ JVM은 크게 클래스 로더 시스템, 메모리, 실행 엔진 그�
 
 실행엔진은 클래스 로더에 의해 실행에 필요한 준비 과정이 완료된 후 인터프리터나 JIT 컴파일러를 통해 바이트코드를 번역하여 실행하는 역할을 한다. 실행 엔진의 내부적으로는 인터프리터, JIT 컴파일러, GC(Garbage Collection)가 있다.
 
-# JRE와 JDK의 차이
+# JRE와 JDK의 차이
 
 JRE와 JDK의 차이점을 알기 전에 각 개념에 대해 간단히 알아보자
 
-## JRE(Java Runtime Environment)
+## JRE(Java Runtime Environment)
 
 > JVM + 자바 클래스 라이브러리
 
 JRE는 자바실행환경으로 JVM과 클래스 라이브러리(Java API)를 포함하고 있다. 클래스 라이브러리로 인해 자바로 개발된 class를 실행 및 운영할 수 있으며 JVM로 인해 자바로 작성된 응용프로그램이 실행되기 위한 최소 환경을 만들 수 있다.
 
-## JDK(Java Development Kit)
+## JDK(Java Development Kit)
 
 > JRE + 개발에 필요한 실행파일
 
@@ -64,7 +64,7 @@ JDK는 자바개발도구로 JRE와 개발에 필요한 실행파일(javac.
 
 - jar.exe : 압축프로그램, 클래스파일과 프로그램의 실행에 관련된 파일을 하나의 jar파일(.jar)로 압축하거나 압축해지한다.
 
-## JRE와 JDK의 차이
+## JRE와 JDK의 차이
 
 - 자바 언어로 프로그램을 개발하기 위해서는 JDK를 설치
 - 자바 언어로 작성된 프로그램을 실행하기 위해서는 JRE를 설치
@@ -87,7 +87,7 @@ JDK는 자바개발도구로 JRE와 개발에 필요한 실행파일(javac.
     - `-g` : 디버깅 정보옵션
     - `nowarn` : 경고 메시지 관련 옵션. 이 옵션을 사용할 경우 경고 메시지를 생성하지 않음
 
-# 실행하는 방법
+# 실행하는 방법
 
 1. 프로그램 실행
 
@@ -101,7 +101,7 @@ JDK는 자바개발도구로 JRE와 개발에 필요한 실행파일(javac.
 
 6. 해석된 파일들은 Runtime Data Area(할당 메모리)에 배치되고 실질적 수행이 이루어짐
 
-## Java 프로그램을 실행해보기(실습)
+## Java 프로그램을 실행해보기(실습)
 
 1. Hello.java파일을 만들어준다.
 
@@ -179,7 +179,7 @@ Hello World!
 
 ```
 
-## Java 버전에 따른 실행
+## Java 버전에 따른 실행
 
 💡 Java 14버전으로 컴파일 된 파일을 Java 8버전으로 실행을 한다면 어떻게 될까?<br>
 
@@ -198,18 +198,18 @@ Hello World!
 📢 Java Compiler version option을 주게 될 경우 가능하다.<br>
 `C\:>javac -source 1.6 -target 1.6 -bootclasspath C:\jdk1.6.0\lib\rt.jar -extdirs "" OldCode.java` 이런 식으로
 
-# 바이트코드란 무엇인가
+# 바이트코드란 무엇인가
 
 > JVM이 이해할 수 있는 기계어
 
 JVM은 바이트코드를 해당 OS의 기계어로 변환하여 OS로 전달함
 
-# JIT 컴파일러란 무엇이며 어떻게 동작하는지
+# JIT 컴파일러란 무엇이며 어떻게 동작하는지
 
 JIT 컴파일은 'Just-In-Time Compilation'의 약어로 정적 컴파일 방식과 인터프리터가 합쳐진 방식이다. 그래서 프로그램을 실제 실행하는 시점에(실시간으로) 기계어로 변환된 코드를 캐시에 저장한다. 이후 컴파일할 때는 변경된 부분만 컴파일하고 나머지는 캐싱된 코드를 사용한다. 이때, 기계어 변환은 코드가 실행되는 과정에서 실시간으로 일어나기 때문에 'Just-In-Time'이라는 단어가 붙었다. JIT 컴파일러는 JRE 안에 존재한다.<br><br>
 장점 : 일반적인 인터프리터 언어에 비해 훨씬 좋은 성능을 낸다. 심지어 경우에 따라 정적 컴파일러 언어보다 좋은 성능을 낼 수도 있다.
 
-# 참고
+# 참고
 
 - [자바 스터디 1주차](https://github.com/whiteship/live-study/issues/1)
 - [Java Compile version option](https://stackoverflow.com/questions/15492948/javac-source-and-target-options)
