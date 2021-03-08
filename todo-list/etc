@@ -1,6 +1,0 @@
-* tomcat이 잘 시작했는 지 확인
-> ps -ef | grep tomcat
-
-* 8080 포트가 열려있는지 확인
-> netstat -tln
-> netstat -anp | grep 8080
